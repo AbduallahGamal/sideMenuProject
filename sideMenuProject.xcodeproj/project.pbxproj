@@ -19,6 +19,8 @@
 		8AE925AF2322A21100D73FB7 /* menuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE925AE2322A21100D73FB7 /* menuController.swift */; };
 		8AE925B12322B24400D73FB7 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE925B02322B24400D73FB7 /* Protocols.swift */; };
 		8AE925B32322C3FE00D73FB7 /* menuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE925B22322C3FE00D73FB7 /* menuOptionCell.swift */; };
+		8AE925B52322FCC700D73FB7 /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE925B42322FCC700D73FB7 /* MenuOption.swift */; };
+		8AE925B72323225300D73FB7 /* settingsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE925B62323225300D73FB7 /* settingsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		8AE925AE2322A21100D73FB7 /* menuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuController.swift; sourceTree = "<group>"; };
 		8AE925B02322B24400D73FB7 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		8AE925B22322C3FE00D73FB7 /* menuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuOptionCell.swift; sourceTree = "<group>"; };
+		8AE925B42322FCC700D73FB7 /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		8AE925B62323225300D73FB7 /* settingsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 				8AE925AA2322A1EE00D73FB7 /* containerController.swift */,
 				8AE925AC2322A1FE00D73FB7 /* homeController.swift */,
 				8AE925AE2322A21100D73FB7 /* menuController.swift */,
+				8AE925B62323225300D73FB7 /* settingsController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 		8AE925A82322A1B100D73FB7 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8AE925B42322FCC700D73FB7 /* MenuOption.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -304,9 +310,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE9257E2322A17500D73FB7 /* sideMenuProject.xcdatamodeld in Sources */,
+				8AE925B52322FCC700D73FB7 /* MenuOption.swift in Sources */,
 				8AE925B32322C3FE00D73FB7 /* menuOptionCell.swift in Sources */,
 				8AE925762322A17500D73FB7 /* AppDelegate.swift in Sources */,
 				8AE925AB2322A1EE00D73FB7 /* containerController.swift in Sources */,
+				8AE925B72323225300D73FB7 /* settingsController.swift in Sources */,
 				8AE925B12322B24400D73FB7 /* Protocols.swift in Sources */,
 				8AE925AF2322A21100D73FB7 /* menuController.swift in Sources */,
 				8AE925AD2322A1FE00D73FB7 /* homeController.swift in Sources */,

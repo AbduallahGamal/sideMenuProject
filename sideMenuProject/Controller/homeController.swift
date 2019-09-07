@@ -24,7 +24,7 @@ class homeController: UIViewController{
     
     //MARK: - Handlers
     @objc func HandleMenuToggle(){
-        delegate?.HandleMenuToggle()
+        delegate?.HandleMenuToggle(forMenuOption: nil)
     }
     
     func configureNavigationBar(){
@@ -32,6 +32,7 @@ class homeController: UIViewController{
         navigationController?.navigationBar.barStyle = .black
         
         navigationItem.title = "Side Menu"
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "iconfinder_menu_1814109").withRenderingMode(.alwaysOriginal), style: .done, target: self, action: #selector(HandleMenuToggle))
+        
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "menu").withRenderingMode(.alwaysOriginal), style: .done, target: self, action: #selector(HandleMenuToggle))
     }
 }
